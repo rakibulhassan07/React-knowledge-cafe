@@ -1,0 +1,43 @@
+[
+    {
+      "ID": 1,
+      "Cover": "https://i.ibb.co/ThbR5L4/html-css-collage-concept-with-hacker.jpg",
+      "Title": "Hacker",
+      "Author": "Korim Mia",
+      "Author_img": "https://i.ibb.co/WWkkp42/thoughtful-businessman-sitting-office-desk-writing-trying-think-up-idea-squinting-as-pondering-new-c.jpg",
+      "Posted_date": "March 21, 2024",
+      "Reading_time": 7,
+      "Hashtags": ["#Beginner", "#Hacker"]
+    },
+    {
+      "ID": 2,
+      "Cover": "https://i.ibb.co/rxyG9L0/rear-view-programmer-working-all-night-long.jpg",
+      "Title": "Kali-developer",
+      "Author": "Kala Jarif",
+      "Author_img": "https://i.ibb.co/7brH3xC/Whats-App-Image-2024-03-21-at-00-19-45-5a103b82.jpg",
+      "Posted_date": "March 20, 2024",
+      "Reading_time": 5,
+      "Hashtags": ["#Expert", "#PHD in Kali Linux", "#Expert Trader"]
+    },
+    {
+      "ID": 3,
+      "Cover": "https://i.ibb.co/y4RvTyp/programming-background-with-person-working-with-codes-computer.jpg",
+      "Title": "React Expert",
+      "Author": "Maria-de-cos-ta",
+      "Author_img": "https://i.ibb.co/6ng2hCx/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg",
+      "Posted_date": "March 19, 2024",
+      "Reading_time": 8,
+      "Hashtags": ["#Beginner", "#programming"]
+    },
+    {
+      "ID": 4,
+      "Cover": "https://i.ibb.co/8X3L84M/pexels-christina-morillo-1181467.jpg",
+      "Title": "Java Expert",
+      "Author": "Abser-de-cos-ta",
+      "Author_img": "https://i.ibb.co/30HcsZY/handsome-mature-businessman-looking-confident-smiling.jpg",
+      "Posted_date": "March 18, 2024",
+      "Reading_time": 9,
+      "Hashtags": ["#Expert", "#Java-Programmer"]
+    } 
+  ]
+  
