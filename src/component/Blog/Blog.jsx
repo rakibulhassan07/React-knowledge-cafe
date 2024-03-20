@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import {FaBookmark } from 'react-icons/fa';
-const Blog = ({blog}) => {
+const Blog = ({blog, handleAddToBookmark,handleAddToTime}) => {
 const {Title,Cover,Reading_time,Author_img,Author,Posted_date,Hashtags}=blog;
     return (
         <div className='mb-20'>
@@ -14,11 +14,7 @@ const {Title,Cover,Reading_time,Author_img,Author,Posted_date,Hashtags}=blog;
                     </div>
                 </div>
              
-                    <span  className='text-2xl text-[#11111199] mt-5'>{Reading_time} min read<button className='ml-8'><FaBookmark></FaBookmark></button></span> 
-                    
-          
-                
-               
+                    <span  className='text-2xl text-[#11111199] mt-5'>{Reading_time} min read<button onClick={()=> handleAddToBookmark(blog)} className='ml-8'><FaBookmark></FaBookmark></button></span>   
             </div>
         <h2 className='text-4xl'>{Title}</h2>
         <p className='mt-8'>
@@ -26,6 +22,7 @@ const {Title,Cover,Reading_time,Author_img,Author,Posted_date,Hashtags}=blog;
                 Hashtags.map((hash,idx)=><span className='ml-4 text-2xl text-[#11111199] ' key={idx}><a href="">#{hash}</a></span>)
             }
         </p>
+        <button onClick={()=>handleAddToTime(Reading_time)} className='pt-8 text-blue-600 font-bold underline'>Mark as read</button>
         </div>
     );
 };
